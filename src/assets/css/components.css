@@ -1,0 +1,59 @@
+#anglePickerContainer {
+    text-align: right;
+    padding: 0 115 10 10;
+    margin-top: -50;
+}
+
+#datePickerContainer {
+    padding: 10 10 10 15;
+}
+
+#datePickerPopOut {
+    float: left;
+}
+
+#filterSwitchContainer {
+    text-align: right;
+    padding: 0 10 10 10;
+    margin-top: -50;
+}
+
+#markerSwitchContainer {
+    text-align: right;
+}
+
+#monitorButtonContainer {
+    text-align: left;
+    padding: 10 10 10 10;
+    margin-top: -10;
+}
+
+#sourcePickerContainer {
+    text-align: right;
+    padding: 0 15 10 10;
+    margin-top: -20;
+}
+
+#graphContainer {
+    overflow-x: scroll;
+    width: 100%;
+    height: 33rem;
+}
+
+#lidStateContainer {
+    text-align: center;
+    height: 42rem;
+    padding-top: 3rem;
+}
+
+#gaugeContainer {
+    display: inline-block;
+}
+
+.mapElements {
+    height: 100%;
+}
+
+#sidebar>.logo {
+    text-align: center;
+}

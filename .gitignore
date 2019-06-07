@@ -1,0 +1,11 @@
+#VSCode specifics
+.vscode/
+
+#Node Specifics
+node_modules/
+.npm
+
+#Project Specifics
+.env
+build/
+package-lock.json
