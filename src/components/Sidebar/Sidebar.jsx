@@ -29,7 +29,7 @@ class Sidebar extends Component {
       >
         <div className='logo'>
           <a className='simple-text logo-normal'>
-            Trash Thesis
+            WasteMan
           </a>
         </div>
         <div className='sidebar-wrapper'>
