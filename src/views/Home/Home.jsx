@@ -13,21 +13,20 @@ class Home extends Component {
                 content={
                   <div>
                     <h1>WasteMan</h1>
-                    <h3>an implementation of the researches entitled:</h3>
-                    <h4>
-                      <i>
-                        <ul>
-                          <li>
-                            "IoT-based Garbage Bin for Solid Waste Collection with Determination of Route
+                    <h2>A solid waste management dashboard</h2>
+                    <p>WasteMan is an implementation of the researches entitled:</p>
+                    <i>
+                      <ul>
+                        <li>
+                          "IoT-based Garbage Bin for Solid Waste Collection with Determination of Route
                             <br />Using the Shortest Path First Algorithm"
                           </li>
-                          <li>
-                            "Determination of Solid Waste Collection Routes by Graph Theory with Graph Minimization 
+                        <li>
+                          "Determination of Solid Waste Collection Routes by Graph Theory with Graph Minimization
                             <br />Using Transitive Reduction for an IoT-based Garbage Bin"
                           </li>
-                        </ul>
-                      </i>
-                    </h4>
+                      </ul>
+                    </i>
                     <p>Research Status</p>
                     <ul>
                       <li>Peer Review - Done</li>
