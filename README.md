@@ -1,15 +1,15 @@
 # WasteMan-Client
-WasteMan-Client consumes and visualizes the data received from the broker and processed by the backend ([Wasteman](https://github.com/ianescober/WasteMan)). Data from the backend is recieved in real-time through websockets.
+WasteMan-Client consumes and visualize the data received from the broker and processed by the backend ([Wasteman](https://github.com/ianescober/WasteMan)). Data from the backend is recieved in real-time through websockets.
 
 ## Samples
 ### Home Page
-![WasteMan-Client Home Page](https://github.com/IanEscober/WasteMan-Client/docs/Home-Page.png)
+![WasteMan-Client Home Page](https://github.com/IanEscober/WasteMan-Client/blob/master/docs/Home-Page.png)
 ### Garbage Bins Page
-![WasteMan-Client Home Page](https://github.com/IanEscober/WasteMan-Client/docs/GarbageBins-Page.png)
+![WasteMan-Client Home Page](https://github.com/IanEscober/WasteMan-Client/blob/master/docs/GarbageBins-Page.png)
 ### Results Page
-![WasteMan-Client Home Page](https://github.com/IanEscober/WasteMan-Client/docs/Results-Page.png)
+![WasteMan-Client Home Page](https://github.com/IanEscober/WasteMan-Client/blob/master/docs/Results-Page.png)
 ### Maps Page
-![WasteMan-Client Home Page](https://github.com/IanEscober/WasteMan-Client/docs/Maps-Page.png)
+![WasteMan-Client Home Page](https://github.com/IanEscober/WasteMan-Client/blob/master/docs/Maps-Page.png)
 
 ## Technologies/Libraries/Frameworks
 ### SPA
@@ -26,8 +26,11 @@ WasteMan-Client consumes and visualizes the data received from the broker and pr
 ## Requirements
 [Node](https://nodejs.org/en/download/) - Any version will do, preferably the latest
 
+## Installation/Operation
+[WasteMan-Client Wiki](https://github.com/IanEscober/WasteMan-Client/wiki)
+
 ## Contribution
 Yeet a Pull Request
 
 ## License
-[MIT](https://github.com/IanEscober/WasteMan-Client/License)
+[MIT](https://github.com/IanEscober/WasteMan-Client/blob/master/License)
