@@ -1,5 +1,5 @@
-import Home from "views/Home/Home";
-import Maps from "views/Maps/Maps";
+import Home from "../views/Home/Home";
+import Maps from "../views/Maps/Maps";
 import GarbageBins from '../views/GarbageBins/GarbageBins';
 import Results from '../views/Results/Results'
 

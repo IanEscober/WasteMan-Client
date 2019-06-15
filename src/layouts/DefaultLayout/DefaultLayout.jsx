@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { connect } from 'react-redux';
 import NotificationSystem from "react-notification-system";
-import Header from "components/Header/Header";
-import Footer from "components/Footer/Footer";
-import Sidebar from "components/Sidebar/Sidebar";
+import Header from '../../components/Header/Header';
+import Footer from "../../components/Footer/Footer";
+import Sidebar from "../../components/Sidebar/Sidebar";
 import appRoutes from "../../routes/appRoutes";
 import { broadcastNotification } from '../../helpers/notificationHelpers';
 

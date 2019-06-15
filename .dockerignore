@@ -1,0 +1,16 @@
+.dockerignore
+.env
+.git
+.gitignore
+.gitattributes
+.vs
+.vscode
+Dockerfile
+
+build/
+node_modules/
+
+#Miscs
+docs/
+License
+README.md
