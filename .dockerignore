@@ -1,16 +1,26 @@
+# Docker
 .dockerignore
-.env
+Dockerfile
+
+# Git
 .git
 .gitignore
 .gitattributes
+
+# VS
 .vs
 .vscode
-Dockerfile
 
+# Environments
+.env
+.env.production
+env.sh
+
+# Project
+conf/
 build/
+public/env.js
 node_modules/
-
-#Miscs
 docs/
 License
 README.md

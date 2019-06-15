@@ -1,11 +1,15 @@
-#VSCode specifics
+# VSCode
 .vscode/
 
-#Node Specifics
+# Node
 node_modules/
 .npm
 
-#Project Specifics
+# Environment
 .env
+.env.production
+
+# Project
 build/
+public/env.js
 package-lock.json

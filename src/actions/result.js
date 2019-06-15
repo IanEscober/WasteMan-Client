@@ -13,7 +13,7 @@ const recieveResult = result => ({
 });
 const fetchResult = source => dispatch => {
     dispatch(requestResult(source))
-    return fetch(process.env.REACT_APP_RESULT_API_URL.concat(source))
+    return fetch(window._env_.RESULT_API_URL.concat(source))
         .then(response => processResonse(response))
         .then(json => {
             dispatch(proxyFetchResultSuccess({ json }));

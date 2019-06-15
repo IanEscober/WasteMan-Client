@@ -3,7 +3,7 @@ import { addGarbageBin, broadcastNotification } from '../actions/index';
 import { notifyGarbageBin, errorNotification } from '../helpers/notificationHelpers';
 
 const connection = new HubConnectionBuilder()
-    .withUrl(process.env.REACT_APP_GARBAGEBIN_HUB_URL)
+    .withUrl(window._env_.GARBAGEBIN_HUB_URL)
     .build();
 
 export const registerHubHandlers = dispatch =>
