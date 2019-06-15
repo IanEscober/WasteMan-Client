@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  wasteman-client:
+    image: wasteman-client:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile

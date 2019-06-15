@@ -12,15 +12,9 @@ Dockerfile
 .vscode
 
 # Environments
-.env
-.env.production
-env.sh
+.env.docker
 
 # Project
-conf/
 build/
 public/env.js
 node_modules/
-docs/
-License
-README.md
