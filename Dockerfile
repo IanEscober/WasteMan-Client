@@ -7,7 +7,6 @@ FROM ${baseImage}:${baseTag} as base
 EXPOSE 80
 RUN rm -rf /etc/nginx/conf.d
 COPY ./conf /etc/nginx
-RUN apk add --no-cache bash
 
 FROM ${buildImage}:${buildTag} as build
 WORKDIR /app
@@ -19,7 +18,6 @@ RUN npm run build
 
 FROM base as final
 WORKDIR /usr/share/nginx/html
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=build /app/build .
 COPY ./env.sh .
-COPY ./.env .
-CMD ["/bin/bash", "-c", "/usr/share/nginx/html/env.sh && nginx -g \"daemon off;\""]
+ENTRYPOINT ["/bin/sh", "-c", "/usr/share/nginx/html/env.sh && nginx -g \"daemon off;\""]

@@ -12,6 +12,7 @@ Dockerfile
 .vscode
 
 # Environments
+.env
 .env.docker
 
 # Project
