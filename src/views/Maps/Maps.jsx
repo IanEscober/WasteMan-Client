@@ -21,7 +21,7 @@ class Maps extends Component {
             <MarkerSwitch marker={marker} switchMarker={switchMarker} />
 
             <TargetArea
-              googleMapURL={window._env_.GOOGLE_MAPS_API_URL}
+              googleMapURL={window._env_.REACT_APP_GOOGLE_MAPS_API_URL}
               loadingElement={<div className='mapElements' />}
               containerElement={<div className='mapElements' />}
               mapElement={<div className='mapElements' />}

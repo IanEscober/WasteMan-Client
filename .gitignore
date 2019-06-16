@@ -12,4 +12,3 @@ node_modules/
 # Project
 build/
 public/env.js
-package-lock.json

@@ -13,7 +13,7 @@ const recieveGarbageBins = bins => ({
 });
 const fetchGarbageBins = (source, shouldToggle) => dispatch => {
     dispatch(requestGarbageBins(source))
-    return fetch(window._env_.GARBAGEBIN_API_URL.concat(source))
+    return fetch(window._env_.REACT_APP_GARBAGEBIN_API_URL.concat(source))
         .then(response => processResonse(response))
         .then(json => {
             dispatch(proxyFetchGarbageBinsSuccess({ json, source, shouldToggle }));
