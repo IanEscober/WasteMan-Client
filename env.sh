@@ -58,3 +58,5 @@ touch $OUTPUT_FILE
 echo "$ENV_FORMAT = {" >> $OUTPUT_FILE
 ( [ -f $INPUT_FILE ] && ReadFromFile ) || ReadFromEnv
 echo "}" >> $OUTPUT_FILE
+
+exec "$@"

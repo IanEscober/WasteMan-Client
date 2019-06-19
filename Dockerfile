@@ -20,4 +20,5 @@ FROM base as final
 WORKDIR /usr/share/nginx/html
 COPY --from=build /app/build .
 COPY ./env.sh .
-ENTRYPOINT ["/bin/sh", "-c", "/usr/share/nginx/html/env.sh && nginx -g \"daemon off;\""]
+ENTRYPOINT ["/usr/share/nginx/html/env.sh"]
+CMD ["nginx", "-g", "daemon off;"]
