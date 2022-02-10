@@ -9,7 +9,7 @@
     "chartist-plugin-pointlabels": "0.0.6",
     "chartist-plugin-tooltips-updated": "0.0.20",
     "moment": "^2.22.2",
-    "node-sass": "4.6.1",
+    "node-sass": "7.0.0",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "4.1.2",
     "react": "16.3.0",
